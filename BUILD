@@ -1,6 +1,6 @@
 py_binary(
-    name = "cartpole",
-    srcs = ["cartpole.py"],
+    name = "lstm_stateless_cartpole",
+    srcs = ["lstm_stateless_cartpole.py"],
 )
 
 py_binary(
