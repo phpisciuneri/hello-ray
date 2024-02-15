@@ -21,7 +21,7 @@ pip install -r reqs_py_3_8_linux.txt
 ### Windows
 
 ```bat
-virtualenv.exe venv
+python.exe -m venv venv
 .\venv\Scripts\activate
 python.exe -m pip install --upgrade pip
 pip install -r reqs_py_3_10_win.txt
